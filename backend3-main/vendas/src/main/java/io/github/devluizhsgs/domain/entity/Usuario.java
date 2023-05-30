@@ -26,6 +26,6 @@ public class Usuario {
     @NotEmpty(message = "{campo.senha.obrigatorio}")
     private String senha;
     @Column
-    private boolean admin;
+    private boolean admin = true;
 
 }
